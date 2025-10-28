@@ -1,0 +1,17 @@
+# --- Core ---
+numpy>=1.26
+pandas>=2.2
+pyarrow>=16        # faster CSV/Parquet IO in pandas
+matplotlib>=3.8
+seaborn>=0.13
+scikit-learn>=1.4
+
+# --- Jupyter ---
+notebook>=7.2      # or jupyterlab>=4.2 if you prefer Lab
+ipykernel>=6.29
+tqdm>=4.66
+
+# --- Nice-to-have (optional) ---
+# imbalanced-learn>=0.12   # if you handle class imbalance
+# xgboost>=2.0             # optional tree model (may be heavy on Apple Silicon)
+# polars>=1.9              # ultra-fast CSV if you want (optional)
